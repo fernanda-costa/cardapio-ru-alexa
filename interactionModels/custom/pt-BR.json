@@ -1,0 +1,87 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "factType",
+              "type": "FactType"
+            }
+          ],
+          "name": "GetNewFactIntent",
+          "samples": [
+            "um fato",
+            "um fato {factType}",
+            "tme diga um fato",
+            "diga-me um fato de {factType}",
+            "me dê um fato",
+            "me diga curiosidades",
+            "conte-me uma curiosidade de {factType}",
+            "me dê curiosidades",
+            "dê-me uma curiosidade de {factType}",
+            "me dê alguma informação",
+            "dê-me algumas informações de {factType}",
+            "Me conte algo",
+            "me dê algo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "factType",
+              "type": "FactType"
+            }
+          ],
+          "name": "AddNewFact",
+          "samples": [
+            "adicione {factType} como um novo tópico",
+            "salve {factType} como um novo tópico",
+            "adicione {factType} como tópico favorito",
+            "salve {factType} como tópico favorito",
+            "adicione {factType} como um tópico de fato favorito",
+            "salve {factType} como um tópico de fatos favorito"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Espaço"
+              }
+            },
+            {
+              "name": {
+                "value": "Futebol"
+              }
+            }
+          ],
+          "name": "FactType"
+        }
+      ],
+      "invocationName": "change me"
+    }
+  }
+}

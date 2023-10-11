@@ -1,0 +1,141 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:934108339803:function:d1f7eda9-f4e6-4928-88e5-77fbf65302b3:Release_0"
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "maxHeight": 540,
+                "maxWidth": 960,
+                "minHeight": 540,
+                "minWidth": 960,
+                "mode": "TV",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 599,
+                "maxWidth": 599,
+                "minHeight": 100,
+                "minWidth": 100,
+                "mode": "HUB",
+                "shape": "ROUND"
+              },
+              {
+                "maxHeight": 959,
+                "maxWidth": 1279,
+                "minHeight": 600,
+                "minWidth": 960,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1279,
+                "maxWidth": 1920,
+                "minHeight": 600,
+                "minWidth": 1280,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 599,
+                "maxWidth": 1279,
+                "minHeight": 100,
+                "minWidth": 960,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1279,
+                "maxWidth": 2560,
+                "minHeight": 960,
+                "minWidth": 1920,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 2560,
+                "maxWidth": 1279,
+                "minHeight": 1920,
+                "minWidth": 960,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1920,
+                "maxWidth": 959,
+                "minHeight": 320,
+                "minWidth": 600,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1920,
+                "maxWidth": 1279,
+                "minHeight": 320,
+                "minWidth": 960,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1920,
+                "maxWidth": 1920,
+                "minHeight": 320,
+                "minWidth": 1280,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE"
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:934108339803:function:d1f7eda9-f4e6-4928-88e5-77fbf65302b3:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:934108339803:function:d1f7eda9-f4e6-4928-88e5-77fbf65302b3:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:934108339803:function:d1f7eda9-f4e6-4928-88e5-77fbf65302b3:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::person_id:read"
+      }
+    ],
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "description": "Peça fatos e aprenda sobre o que realmente importa, como matéria escura. \n\nA habilidade Fatos proporciona diversão que toda a família pode desfrutar e com a garantia de torná-lo mais inteligente. \n\nPara começar, basta dizer\"Alexa, lançar Habilidade Fatos\" ou \"Alexa, habilidade Fatos abertos\" para obter um fato \".\n\nA qualquer momento, você pode parar dizendo \" Alexa, pare\"",
+          "examplePhrases": [
+            "Alexa, habilidade de abrir fatos",
+            "Alexa pede habilidade de fatos para um fato",
+            "Alexa contar fatos, habilidade para me contar curiosidades"
+          ],
+          "keywords": [
+            "espaço",
+            "futebol",
+            "fatos",
+            "curiosidades"
+          ],
+          "name": "Cardapio RU",
+          "summary": "Aprenda curiosidades sobre o espaço e outros tópicos."
+        }
+      }
+    }
+  }
+}
